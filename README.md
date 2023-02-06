@@ -1,6 +1,6 @@
 #Features
 
-- Responsive Layout powered by Bootstrap 3
+- Responsive Layout powered by Bootstrap
 - Built with w3 validated HTML5 & CSS3
 - Modern Design
 - Full Screen Header Background
