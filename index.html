@@ -27,6 +27,7 @@
   <!-- Head End -->
 
   <body>
+    
     <!-- Navbar Start -->
     <nav class="navbar">
       <a href="#" class="navbar-logo">
@@ -184,17 +185,17 @@
         <form action="">
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" name="Name" id="name" placeholder="nama" />
-          </div>
-          <div class="input-group">
-            <i data-feather="mail"></i>
-            <input type="text" name="Email" id="email" placeholder="email" />
+            <input type="text" name="Name" id="name" placeholder="nama" value="" required="" />
           </div>
           <div class="input-group">
             <i data-feather="phone"></i>
-            <input type="text" name="Phone" id="phone" placeholder="phone" />
+            <input type="text" name="Phone" id="phone" placeholder="phone" value="" required="" />
           </div>
-          <a href="https://wa.me/+6285215400416" type="submit" class="btn">Kirim Presan</a>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" name="Email" id="email" placeholder="email" value="" required="" />
+          </div>
+          <input type="submit" onclick="gotowhatsapp()" name="submit" class="btn" value="Submit" />
         </form>
       </div>
     </section>
@@ -212,7 +213,7 @@
         <a href="#">
           <i data-feather="instagram"></i>
         </a>
-        <a href="https://wa.me/+6285215400416">
+        <a href="https://api.whatsapp.com/send?phone=6289610618417&text=Halo%20mau%20order">
           <i data-feather="message-circle"></i>
         </a>
       </div>
@@ -234,32 +235,7 @@
     </footer>
     <!-- Footer End -->
 
-    
-    <script>
-    function gotowhatsapp() {
-      var name = document.getElementById("name").value;
-      var phone = document.getElementById("phone").value;
-      var email = document.getElementById("email").value;
-      var service = document.getElementById("service").value;
-
-      var url =
-        "https://wa.me/+6285215400416?text=" +
-        "Name: " +
-        name +
-        "%0a" +
-        "Phone: " +
-        phone +
-        "%0a" +
-        "Email: " +
-        email +
-        "%0a" +
-        "Service: " +
-        service;
-
-      window.open(url, "_blank").focus();
-    }
-  </script>
-
+  <script src="https://cdnjs.cloudfare.com/ajax/libs/jquery.min.js"></script>
     <!-- icons -->
     <script>
       feather.replace();
