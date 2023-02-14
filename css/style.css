@@ -1,6 +1,6 @@
 :root {
     --primary: #dfdc1e;
-    --bg: #010101;
+    --bg: #000000;
 }
 
 * {
@@ -40,7 +40,7 @@ body {
 .navbar .navbar-logo {
     font-size: 2rem;
     font-weight: 700;
-    color: #ffff;
+    color: #fff;
     font-style: italic;
 }
 
@@ -375,7 +375,7 @@ body {
 
 /* footer */
 footer {
-    background-color: var(--primary);
+    background-color: #b99403d5;
     text-align: center;
     padding: 1rem 0 3rem;
     margin-top: 3rem;
