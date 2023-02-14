@@ -184,15 +184,15 @@
         <form action="">
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" placeholder="nama" />
+            <input type="text" name="Name" id="name" placeholder="nama" />
           </div>
           <div class="input-group">
             <i data-feather="mail"></i>
-            <input type="text" placeholder="email" />
+            <input type="text" name="Email" id="email" placeholder="email" />
           </div>
           <div class="input-group">
             <i data-feather="phone"></i>
-            <input type="text" placeholder="phone" />
+            <input type="text" name="Phone" id="phone" placeholder="phone" />
           </div>
           <a href="https://wa.me/+6285215400416" type="submit" class="btn">Kirim Presan</a>
         </form>
@@ -233,6 +233,32 @@
       </div>
     </footer>
     <!-- Footer End -->
+
+    
+    <script>
+    function gotowhatsapp() {
+      var name = document.getElementById("name").value;
+      var phone = document.getElementById("phone").value;
+      var email = document.getElementById("email").value;
+      var service = document.getElementById("service").value;
+
+      var url =
+        "https://wa.me/+6285215400416?text=" +
+        "Name: " +
+        name +
+        "%0a" +
+        "Phone: " +
+        phone +
+        "%0a" +
+        "Email: " +
+        email +
+        "%0a" +
+        "Service: " +
+        service;
+
+      window.open(url, "_blank").focus();
+    }
+  </script>
 
     <!-- icons -->
     <script>
