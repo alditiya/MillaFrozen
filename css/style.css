@@ -227,7 +227,6 @@ body {
 
     .about .row .content p {
         font-size: 1.6rem;
-
     }
     
     .menu p {
@@ -255,6 +254,8 @@ body {
 
 .menukami p, .contact p {
     margin-bottom: 0rem;
+    color: #ffffff;
+    font-size: 1.4rem;
     text-align: center;
     max-width: 30rem;
     margin: auto;
