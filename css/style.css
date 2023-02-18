@@ -277,11 +277,11 @@ body {
 
 .menukami .row .menu-card img {
     border-radius: 50%;
-    width: 60%;
+    width: 40%;
 }
 
 .menukami .row .menu-card .menu-card-title {
-    margin: 1rem auto 0.5rem;
+    margin: 1rem auto 0.4rem;
 }
 
 /* about section */
@@ -377,7 +377,7 @@ body {
 
 /* footer */
 footer {
-    background-color: #b99403d5;
+    background-color: #e1ae06f7;
     text-align: center;
     padding: 1rem 0 3rem;
     margin-top: 3rem;
@@ -410,7 +410,7 @@ footer .credit {
 }
 
 footer .credit a {
-    color: var(--bg);
+    color: #02ffff;
     font-weight: 700;
 }
 
