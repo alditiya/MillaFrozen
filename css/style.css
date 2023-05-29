@@ -85,6 +85,41 @@ body {
     display: none;
 }
 
+/* Navbar Search */
+
+.navbar .search-form {
+    position: absolute;
+    top: 100%;
+    right: 7%;
+    background-color: #fff;
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.5s;
+}
+
+.navbar .search-form.active {
+    transform: scaleY(1);
+}
+
+.navbar .search-form input {
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    color: var(--bg);
+    padding: 1rem;
+}
+
+.navbar .search-form label {
+    cursor: pointer;
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    color: var(--bg);
+}
+
 /* hero section */
 
 .hero {
@@ -206,6 +241,11 @@ body {
         transform: scaleX(0.2);
     }
 
+    .navbar .search-form {
+        width: 90%;
+        right: 2rem;
+    }
+
     .about .row {
         flex-wrap: wrap;
     }
@@ -284,19 +324,89 @@ body {
     margin: 1rem auto 0.4rem;
 }
 
+/* Products Section */
+.products .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    margin-top: 4rem;
+}
+
+.products .product-card {
+    text-align: center;
+    border: 1px solid #666;
+    padding: 2rem;
+}
+
+.products .product-icons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.products .product-icons a {
+width: 4rem;
+height: 4rem;
+color: #fff;
+margin: 0.3rem;
+border: 1px solid #666;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.products .product-icons a:hover {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.products .product-images {
+    padding: 1rem 0;
+}
+
+.products .product-images img {
+    height: 25rem;
+}
+
+.products .product-content h3 {
+    font-size: 2rem;
+}
+
+.products .product-stars {
+    font-size: 1.7rem;
+    padding: 0.8rem;
+    color: var(--primary);
+}
+
+.products .product-stars .star-full {
+    fill: var(--primary);
+}
+
+.products .product-price {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.products .product-price span {
+text-decoration: line-through;
+font-weight: lighter;
+font-size: 1rem;
+}
+
 /* about section */
 
-.about, .menukami, .contact {
+.about, .menukami, .products, .contact {
     padding: 7rem 7% 1.4rem;
 }
 
-.about h2, .menukami h2, .contact h2{
+.about h2, .menukami h2, .products h2, .contact h2{
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 3rem;
 }
 
-.about h2 span, .menukami h2 span, .contact h2 span {
+.about h2 span, .menukami h2 span, .products h2 span, .contact h2 span {
     color: var(--primary);
 }
 

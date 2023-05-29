@@ -38,14 +38,26 @@
         <a href="index.html">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menukami">Menu</a>
+        <a href="#products">Produk</a>
         <a href="#contact">Contact</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
         <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- Search From start -->
+      <div class="search-form">
+        <input
+          type="search-button"
+          id="search-box"
+          placeholder="search here..."
+        />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
     </nav>
     <!-- Navbar end -->
 
@@ -79,7 +91,8 @@
           <h3>Kenapa Harus Produk kami?</h3>
           <p>
             Semua Produk yang kami jual telah tersertifikasi HALAL oleh MUI
-            dengan tanggal expired yang telah kami sortir sehinggan pelanggan tidak perlu khawatir produk akan expired dalam waktu dekat.
+            dengan tanggal expired yang telah kami sortir sehinggan pelanggan
+            tidak perlu khawatir produk akan expired dalam waktu dekat.
           </p>
         </div>
       </div>
@@ -95,7 +108,8 @@
       <p>
         Mau NGEMIL enak di akhir bulan? Siapa takut. Kamu masih bisa NGEMIL enak
         mulai dari Rp10.000. di toko kami bisa dipesan melalui online atau
-        langsung ambil di tempat! TEMUKAN BANYAK PENAWARAN MENARIK SETIAP PEMBELIAN LEBIH DARI 3 ITEM!!!!
+        langsung ambil di tempat! TEMUKAN BANYAK PENAWARAN MENARIK SETIAP
+        PEMBELIAN LEBIH DARI 3 ITEM!!!!
       </p>
 
       <div class="row">
@@ -218,11 +232,7 @@
           <p class="menu-card-price">IDR 35.000,-</p>
         </div>
         <div class="menu-card">
-          <img
-            src="img/menu/kebab.jpeg"
-            alt="Menu8"
-            class="menu-card-img"
-          />
+          <img src="img/menu/kebab.jpeg" alt="Menu8" class="menu-card-img" />
           <h3 class="menu-card-title">Kebab Frozen</h3>
           <p class="menu-card-price">IDR 33.000,-</p>
         </div>
@@ -230,15 +240,50 @@
     </section>
     <!-- Menu Section End -->
 
+    <!-- Product Section Start -->
+    <section class="products" id="products">
+      <h2><span>Produk Unggulan</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+        consequatur quae molestiae, necessitatibus voluptates debitis!
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/menu/kebab.jpeg" alt="Product 1">
+          </div>
+          <div class="product-content">
+            <h3>Coffe Beans</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product Section End -->
+
     <!-- Contact Section Start -->
     <section id="contact" class="contact">
       <h2>
         <span>Kontak</span>
         Kami
       </h2>
-      
+
       <p>
-        Sudah menemukan pilihan yang diinginkan? Hubungi kami pada media sosial yang tertera berikut, atau juga anda bisa datang ke toko kami. HAPPY SHOPPING!
+        Sudah menemukan pilihan yang diinginkan? Hubungi kami pada media sosial
+        yang tertera berikut, atau juga anda bisa datang ke toko kami. HAPPY
+        SHOPPING!
       </p>
 
       <div class="row">
@@ -288,7 +333,10 @@
             type="submit"
             href="javascript:void"
             class="btn"
-            title="Send to whatsapp">Send</button>
+            title="Send to whatsapp"
+          >
+            Send
+          </button>
         </form>
       </div>
     </section>
@@ -327,7 +375,8 @@
           . | &copy; 2023
         </p>
         <p>
-          Mila Food Corner ingin mendengar masukan Anda. Berikan ulasan di profil kami.
+          Mila Food Corner ingin mendengar masukan Anda. Berikan ulasan di
+          profil kami.
           <a href="https://g.page/r/CexBGsoR8s63EAI/review">Kirim Masukan</a>
         </p>
       </div>
@@ -338,7 +387,6 @@
     <script>
       feather.replace();
     </script>
-
     <!-- JS -->
     <script src="js/script.js"></script>
     <!-- JS END -->
