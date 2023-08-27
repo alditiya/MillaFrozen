@@ -1,5 +1,5 @@
 :root {
-    --primary: #dfdc1e;
+    --primary: #ebba51;
     --bg: #000000;
 }
 
@@ -161,11 +161,10 @@ body {
 }
 
 .hero .content p {
-    font-size:1.6rem;
+    font-size: 1.6rem;
     color: #ffffff;
     margin-top: 1rem;
     height: 1.4;
-    font-weight: 100;
     text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
@@ -215,7 +214,7 @@ body {
         position: absolute;
         top: 100%;
         right: -100%;
-        background-color: #fff;
+        background-color: #e0dadaa6;
         width: 30rem;
         height: 100vh;
         transition: 0.3s;
@@ -268,7 +267,7 @@ body {
     .about .row .content p {
         font-size: 1.6rem;
     }
-    
+
     .menu p {
         font-size: 1.2rem;
     }
@@ -345,15 +344,15 @@ body {
 }
 
 .products .product-icons a {
-width: 4rem;
-height: 4rem;
-color: #fff;
-margin: 0.3rem;
-border: 1px solid #666;
-border-radius: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
+    width: 4rem;
+    height: 4rem;
+    color: #fff;
+    margin: 0.3rem;
+    border: 1px solid #666;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .products .product-icons a:hover {
@@ -389,9 +388,9 @@ align-items: center;
 }
 
 .products .product-price span {
-text-decoration: line-through;
-font-weight: lighter;
-font-size: 1rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1rem;
 }
 
 /* about section */
@@ -400,7 +399,7 @@ font-size: 1rem;
     padding: 7rem 7% 1.4rem;
 }
 
-.about h2, .menukami h2, .products h2, .contact h2{
+.about h2, .menukami h2, .products h2, .contact h2 {
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 3rem;
@@ -487,7 +486,7 @@ font-size: 1rem;
 
 /* footer */
 footer {
-    background-color: #e1ae06f7;
+    background-color: #31313180;
     text-align: center;
     padding: 1rem 0 3rem;
     margin-top: 3rem;
