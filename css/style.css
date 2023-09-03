@@ -291,14 +291,15 @@ body {
     margin-bottom: 0.5rem;
 }
 
-.menukami p, .contact p {
+.menukami p,
+.contact p {
     margin-bottom: 0rem;
-    color: #ffffff;
+    color: #fafafa;
     font-size: 1.4rem;
     text-align: center;
     max-width: 70rem;
     margin: auto;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.6;
 }
 
@@ -315,8 +316,8 @@ body {
 }
 
 .menukami .row .menu-card img {
-    border-radius: 50%;
-    width: 40%;
+    border-radius: 20%;
+    width: 50%;
 }
 
 .menukami .row .menu-card .menu-card-title {
@@ -395,17 +396,26 @@ body {
 
 /* about section */
 
-.about, .menukami, .products, .contact {
+.about,
+.menukami,
+.products,
+.contact {
     padding: 7rem 7% 1.4rem;
 }
 
-.about h2, .menukami h2, .products h2, .contact h2 {
+.about h2,
+.menukami h2,
+.products h2,
+.contact h2 {
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 3rem;
 }
 
-.about h2 span, .menukami h2 span, .products h2 span, .contact h2 span {
+.about h2 span,
+.menukami h2 span,
+.products h2 span,
+.contact h2 span {
     color: var(--primary);
 }
 
@@ -501,7 +511,8 @@ footer .socials a {
     margin: 1rem;
 }
 
-footer .socials a:hover, footer .links a:hover {
+footer .socials a:hover,
+footer .links a:hover {
     color: var(--bg);
 }
 
